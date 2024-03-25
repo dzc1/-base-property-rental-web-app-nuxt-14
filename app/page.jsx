@@ -1,3 +1,6 @@
+// Page Name: Home Page Page
+// Page Function: Update Later....
+// ------------------------------------
 import Hero from '@/components/Hero';
 import InfoBoxes from '@/components/InfoBoxes';
 import HomeProperties from '@/components/HomeProperties';

@@ -1,4 +1,4 @@
-// Page Name: Home Page Page
+// Page Name: Home Page
 // Page Function: Update Later....
 // ------------------------------------
 import Hero from '@/components/Hero';

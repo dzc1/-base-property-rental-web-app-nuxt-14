@@ -1,20 +1,26 @@
+// Page Name: Custom Spinner Page
+// Page Function: Update Later....
+// ------------------------------------
 'use client';
-import ClipLoader from 'react-spinners/ClipLoader';
+import ScaleLoader from 'react-spinners/ScaleLoader';
 
 const override = {
-  display: 'block',
+  display: 'flex',
   margin: '100px auto',
+  justifyContent: 'center',
 };
 
 const LoadingPage = ({ loading }) => {
   return (
-    <ClipLoader
-      color='#3b82f6'
-      loading={loading}
-      cssOverride={override}
-      size={150}
-      aria-label='Loading Spinner'
-    />
+    <>
+      <ScaleLoader
+        color='#3b82f6'
+        loading={loading}
+        cssOverride={override}
+        width={4}
+      />
+    </>
   );
 };
+
 export default LoadingPage;

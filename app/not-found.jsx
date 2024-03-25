@@ -1,3 +1,6 @@
+// Page Name: Custom Not Found Page
+// Page Function: Update Later....
+// ------------------------------------
 import Link from 'next/link';
 import { FaExclamationTriangle } from 'react-icons/fa';
 

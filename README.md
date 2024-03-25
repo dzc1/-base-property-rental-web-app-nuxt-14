@@ -1,6 +1,55 @@
-My Info here.....
+# Next JS 14 - Project Structure
+
+### App Folder
+
+Use this folder to store pages or api routes that will be calling the backend
+
+If you want to create a page just create folder within the `/app` folder like `/app/favorite-movies` or `/app/movies`
+
+### Components Folder
+
+Components, ui comps here
+
+### Assets Folder
+
+Styles here for tailwind drectives
+
+### File Based routing
+
+App is the route for our routes and we create subfolders for sub-routes
+
+#### Dynamic Pages
+
+- add a [] to create dynamic pages for example
+- [id] - for properties pagee example /properties/123
+
+- If you want to have aa catch all scenario where for example /properties/123/amenities or /properties/123/bathrooms
+- [...id] - for this approach
+
+### FOR COMP / PAGE CREATION HELP
+
+#### Useful git Commands
+
+`rm -rf .git`
+`rm -f ./.git/index.lock`
+
+#### Comp info strutcture
+
+- // Page Name: Individual Property Page - by id on URL
+- // Page Function: Update Later....
+- // ------------------------------------
 
 # DELETE BELOW
+
+## --
+
+## --
+
+## --
+
+## --
+
+## --
 
 #### Property Pulse
 
